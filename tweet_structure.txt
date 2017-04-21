@@ -1,0 +1,90 @@
+in_reply_to_screen_name
+id_str
+geo
+in_reply_to_status_id_str
+contributors
+text
+entities
+id
+timestamp_ms
+filter_level
+in_reply_to_user_id_str
+retweeted (bool)
+truncated
+in_reply_to_status_id
+favorite_count
+coordinates
+user
+	profile_background_image_url
+	profile_background_color
+	screen_name
+	profile_image_url
+	contributors_enabled
+	id_str
+	friends_count
+	verified
+	profile_background_tile
+	protected
+	profile_sidebar_fill_color
+	geo_enabled
+	description
+	profile_image_url_https
+	follow_request_sent
+	following
+	id
+	location
+	profile_text_color
+	listed_count
+	profile_link_color
+	profile_background_image_url_https
+	profile_sidebar_border_color
+	default_profile_image
+	favourites_count (int)
+	url
+	default_profile
+	lang
+	is_translator
+	statuses_count
+	profile_use_background_image
+	utc_offset
+	name
+	followers_count
+	time_zone
+	created_at
+	notifications
+lang
+favorited
+is_quote_status
+place
+in_reply_to_user_id
+retweet_count
+created_at
+source
+
+
+in_reply_to_screen_name --> None
+id_str --> 855199764333330438
+geo --> None
+in_reply_to_status_id_str --> None
+contributors --> None
+text --> Now Playing: Wagon Christ - Musical Box
+entities --> {'symbols': [], 'hashtags': [], 'user_mentions': [], 'urls': []}
+id --> 855199764333330438
+timestamp_ms --> 1492730487317
+filter_level --> low
+in_reply_to_user_id_str --> None
+retweeted --> False
+truncated --> False
+in_reply_to_status_id --> None
+favorite_count --> 0
+coordinates --> None
+user --> {'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_color': 'FFFFFF', 'screen_name': 'limbikfreq', 'profile_image_url': 'http://pbs.twimg.com/profile_images/59204640/logo_cat_normal.png', 'contributors_enabled': False, 'id_str': '16070078', 'friends_count': 232, 'verified': False, 'profile_background_tile': False, 'protected': False, 'profile_sidebar_fill_color': 'FFFFFF', 'geo_enabled': False, 'description': 'A Radio Station', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/59204640/logo_cat_normal.png', 'follow_request_sent': None, 'following': None, 'id': 16070078, 'location': 'On the Internets', 'profile_text_color': 'A3A3A3', 'listed_count': 48, 'profile_link_color': '5D5D5D', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_sidebar_border_color': 'E4E4E4', 'default_profile_image': False, 'favourites_count': 7, 'url': 'http://www.limbikfreq.com', 'default_profile': False, 'lang': 'en', 'is_translator': False, 'statuses_count': 130154, 'profile_use_background_image': False, 'utc_offset': -18000, 'name': 'Limbik Frequencies', 'followers_count': 384, 'time_zone': 'Central Time (US & Canada)', 'created_at': 'Sun Aug 31 20:08:29 +0000 2008', 'notifications': None}
+lang --> en
+favorited --> False
+is_quote_status --> False
+place --> None
+in_reply_to_user_id --> None
+retweet_count --> 0
+created_at --> Thu Apr 20 23:21:27 +0000 2017
+source --> <a href="http://sam-song.info" rel="nofollow">SAM Broadcaster Song Info</a>
+

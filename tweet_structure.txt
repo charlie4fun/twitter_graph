@@ -5,11 +5,16 @@ in_reply_to_status_id_str
 contributors
 text
 entities
+	symbols
+	user_mentions
+	hashtags
+	urls
 id
 timestamp_ms
 filter_level
 in_reply_to_user_id_str
 retweeted (bool)
+retweeted_status (contains data about parent tweet if exists)
 truncated
 in_reply_to_status_id
 favorite_count
@@ -88,3 +93,31 @@ retweet_count --> 0
 created_at --> Thu Apr 20 23:21:27 +0000 2017
 source --> <a href="http://sam-song.info" rel="nofollow">SAM Broadcaster Song Info</a>
 
+
+user --> {'verified': False, 'utc_offset': None, 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/2271461099/1389470489', 'statuses_count': 69736, 'profile_background_color': 'C0DEED', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'time_zone': None, 'location': 'Üsküdar, İstanbul', 'screen_name': '_SiyahSancak_', 'name': 'Siyah_Sancaktar', 'profile_link_color': '1DA1F2', 'id': 2271461099, 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'is_translator': False, 'profile_text_color': '333333', 'follow_request_sent': None, 'followers_count': 2137, 'protected': False, 'default_profile': True, 'contributors_enabled': False, 'profile_background_tile': False, 'listed_count': 13, 'following': None, 'description': 'ALLAH (C.C.) Kötüleri ve Zalimleri Yarına Bırakır; ama ASLA Yanlarına Bırakmaz! ÖLMEYE HAZIR OLAN İNSANLAR,ÖLMEYE HAZIR OLMAYANLARA KARŞI GALİP GELİRLER!(ALİYA)', 'favourites_count': 146, 'url': None, 'lang': 'tr', 'default_profile_image': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/808997560690081792/eS0uKosm_normal.jpg', 'notifications': None, 'geo_enabled': True, 'profile_use_background_image': True, 'id_str': '2271461099', 'friends_count': 2348, 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'created_at': 'Thu Jan 09 19:44:27 +0000 2014', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/808997560690081792/eS0uKosm_normal.jpg'}
+is_quote_status --> False
+truncated --> False
+retweet_count --> 0
+retweeted_status --> {'user': {'verified': True, 'utc_offset': 10800, 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/70025554/1485645706', 'statuses_count': 18711, 'profile_background_color': '131516', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme14/bg.gif', 'time_zone': 'Istanbul', 'location': 'İstanbul', 'screen_name': 'cemkucuk55', 'name': 'Cem Küçük', 'profile_link_color': '001F99', 'id': 70025554, 'profile_sidebar_border_color': 'EEEEEE', 'profile_sidebar_fill_color': 'EFEFEF', 'is_translator': False, 'profile_text_color': '333333', 'follow_request_sent': None, 'followers_count': 198629, 'protected': False, 'default_profile': False, 'contributors_enabled': False, 'profile_background_tile': True, 'listed_count': 793, 'following': None, 'description': "Gazeteci yazar Cem Küçük'ün resmi twitter hesabıdır. Official Account! http://facebook.com/cemkucuk1", 'favourites_count': 330, 'url': 'http://Instagram.com/cemkucuk55', 'lang': 'tr', 'default_profile_image': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/825498399537524737/nuEBXzFp_normal.jpg', 'notifications': None, 'geo_enabled': False, 'profile_use_background_image': True, 'id_str': '70025554', 'friends_count': 417, 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme14/bg.gif', 'created_at': 'Sun Aug 30 02:24:56 +0000 2009', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/825498399537524737/nuEBXzFp_normal.jpg'}, 'is_quote_status': False, 'truncated': False, 'retweet_count': 54, 'filter_level': 'low', 'entities': {'symbols': [], 'user_mentions': [], 'hashtags': [], 'urls': [{'expanded_url': 'http://www.star.com.tr/mobil/mobilyazar.asp?Newsid=1084215', 'url': 'https://t.co/kLOZ3Rlk5y', 'indices': [67, 90], 'display_url': 'star.com.tr/mobil/mobilyaz…'}]}, 'coordinates': None, 'contributors': None, 'in_reply_to_user_id': None, 'id': 855320583923417088, 'retweeted': False, 'favorite_count': 185, 'favorited': False, 'in_reply_to_status_id_str': None, 'in_reply_to_status_id': None, 'source': '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>', 'text': '22 Ocak 2016: Cem Küçük: İslamcılığın dönemi esas şimdi başlıyor.  https://t.co/kLOZ3Rlk5y', 'geo': None, 'lang': 'tr', 'in_reply_to_user_id_str': None, 'possibly_sensitive': True, 'id_str': '855320583923417088', 'place': None, 'created_at': 'Fri Apr 21 07:21:32 +0000 2017', 'in_reply_to_screen_name': None}
+filter_level --> low
+entities --> {'symbols': [], 'user_mentions': [{'id_str': '70025554', 'screen_name': 'cemkucuk55', 'name': 'Cem Küçük', 'indices': [3, 14], 'id': 70025554}], 'hashtags': [], 'urls': [{'expanded_url': 'http://www.star.com.tr/mobil/mobilyazar.asp?Newsid=1084215', 'url': 'https://t.co/kLOZ3Rlk5y', 'indices': [83, 106], 'display_url': 'star.com.tr/mobil/mobilyaz…'}]}
+coordinates --> None
+contributors --> None
+in_reply_to_user_id --> None
+id --> 855343105096245248
+timestamp_ms --> 1492764662418
+retweeted --> False
+favorite_count --> 0
+favorited --> False
+in_reply_to_status_id_str --> None
+in_reply_to_status_id --> None
+source --> <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+text --> RT @cemkucuk55: 22 Ocak 2016: Cem Küçük: İslamcılığın dönemi esas şimdi başlıyor.  https://t.co/kLOZ3Rlk5y
+geo --> None
+lang --> tr
+in_reply_to_user_id_str --> None
+possibly_sensitive --> False
+id_str --> 855343105096245248
+place --> None
+created_at --> Fri Apr 21 08:51:02 +0000 2017
+in_reply_to_screen_name --> None

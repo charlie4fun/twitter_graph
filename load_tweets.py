@@ -7,7 +7,7 @@ for line in tweets_file:
     try:
         tweet_data = json.loads(line)
         tweets_data.append(tweet_data)
-    except:
+    except json.decoder.JSONDecodeError:
         continue
 
 tweets = pandas.DataFrame()

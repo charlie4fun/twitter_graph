@@ -4,6 +4,7 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import sys
 import traceback
+import time
 
 consumer_key = "i2MOcYvFUBYyV2VLstIxQWFox"
 consumer_secret = "3snc68OiPRMACizWvkz7O8GHoHZGqrTnsC8WPC8QLvRtA0OIfS"
@@ -31,7 +32,12 @@ twitterStream = Stream(auth, Listener())
 
 while True:
     try:
-        twitterStream.filter(track=['kereta', 'mobil', 'gerbong', 'gerobak', 'oto', 'wagon', 'pedati'])
+        twitterStream.filter(track=['kereta', 'mobil', 'gerbong', 'gerobak', 'oto', 'wagon', 'pedati', 'Mobil kota',
+                                    'Mobil supermini', 'subkompak', 'Mobil keluarga kecil',
+                                    'mobil kompak', 'Mobil keluarga besar', 'Mobil mid-size', 'mobil besar',
+                                    'Mobil kompak eksekutif',
+                                    'Mobil eksekutif', 'Mobil mewah full-size', 'Grand saloon', ''])
     except Exception as e:
         traceback.print_exc()
         continue
+        time.sleep(5)
